@@ -1,0 +1,13 @@
+.card {
+  /* margin: 1rem; */
+  border-radius: 1rem;
+  background: #fff;
+  padding: 0.5rem;
+  text-align: center;
+  color: #000;
+  box-shadow: 0 1px 5px 0 #888888;
+}
+
+.main {
+  width: 100%;
+}

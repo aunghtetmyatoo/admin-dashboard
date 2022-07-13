@@ -1,0 +1,104 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: #87e0fd;
+  background: -moz-linear-gradient(top, #87e0fd 0%, #53cbf1 40%, #05abe0 100%);
+  background: -webkit-linear-gradient(
+    top,
+    #87e0fd 0%,
+    #53cbf1 40%,
+    #05abe0 100%
+  );
+  background: linear-gradient(to bottom, #87e0fd 0%, #53cbf1 40%, #05abe0 100%);
+}
+body {
+  font-size: 62.5%;
+  font-family: Roboto, sans-serif;
+} */
+.container {
+  border: 1px solid #f1f1f1;
+  /* width: 30em; */
+  /* height: 30em; */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  background: #fff;
+  padding: 1em;
+}
+.formLogin {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  height: 100%;
+}
+.formLogin p {
+  color: #3d3d3d;
+}
+.form_header {
+  flex: 1 100%;
+  font-size: 2.5em;
+  font-weight: lighter;
+  font-family: Ubuntu, sans-serif;
+  color: #8c8c8c;
+  margin: 0.5em 0 0.5em 0;
+}
+.inputGroup {
+  flex: 1 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: left;
+  margin: 1.5em 0;
+  position: relative;
+}
+.inputGroup span {
+  display: inline-block;
+  text-align: center;
+  width: auto;
+  font-size: 1.6em;
+  color: #8c8c8c;
+  position: absolute;
+  top: 50%;
+  transform: translate(12px, -50%);
+}
+.emailInput {
+  padding: 1em 1em 1em 2.5em;
+  border: 1px solid #f1f1f1;
+  font-size: 1.3em;
+  color: #3d3d3d;
+}
+.emailInput:hover,
+.emailInput:focus {
+  border-color: #ddd;
+  outline: none;
+}
+.inputGroup input:focus + span {
+  color: #3d3d3d;
+}
+.inputGroup button {
+  display: inline-block;
+  width: 10em;
+  padding: 0.8em 0.5em;
+  cursor: pointer;
+  border: none;
+  background: #87e0fd;
+  color: #fff;
+  font-size: 1.3em;
+  font-family: Ubuntu, sans-serif;
+  transition: all 0.5s ease;
+}
+.inputGroup button:hover {
+  /* background: #a9e4f7;
+  color: #fff; */
+}

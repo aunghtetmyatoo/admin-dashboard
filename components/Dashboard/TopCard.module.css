@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0.8rem;
+}
+.title {
+  font-size: 1rem;
+  color: #83809a;
+  font-weight: bold;
+}
+.body {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #344767;
+}
+.base {
+  font-size: 0.9rem;
+  color: #83809a;
+}
+.base_span {
+  color: #80bc60;
+  font-weight: bold;
+}
